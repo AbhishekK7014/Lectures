@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <h1>Event Handling</h1>
+    <!--1st way-->
+    <!--<button onclick="alert('This is a alert button')">Click Me</button>-->
+    <!--2nd way
+    <button id="btn">Click Me</button>
+    <script>
+        document.getElementById("btn").onclick = function(){
+            alert('This is a alert button')
+        }
+        
+    </script>-->
+    <!--3rd way
+    <button id="btn">Click Me</button>
+    <script>
+        document.getElementById("btn").addEventListener('click',function(){
+            alert('This is a alert button')
+        },true or false)
+    </script>-->
+
+    <!--Event object
+    <button id="btn">Click Me</button>
+<script>
+    document.getElementById("btn").addEventListener('click',function(e){
+        console.log(e)
+    })
+</script>-->
+<!--2. capturing: In capturing we move from out to inside
+<!--<script>
+    do-->
+
+</body>
+</html>

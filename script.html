@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Document</title>
+<body>
+    <center>
+        <div class="weeks">
+            <div class="days">mon</div>
+            <div class="days">tue</div>
+            <div class="days">wed</div>
+            <div class="days">thur</div>
+            <div class="days">fri</div>
+            <div class="days">sat</div>
+            <div class="days">sun</div>
+        </div>
+        <script>
+            const weeks= document.querySelector(".weeks")
+            console.log(weeks)
+            console.log(weeks.childern)
+
+            // child to parent
+
+            var child= document.querySelector(".days")
+            console.log(child)
+            console.log(child[2])
+            console.log(child[2].innerHTML)
+            console.log(child.parentElement)
+        </script>
+</center>
+</body>
+</html>

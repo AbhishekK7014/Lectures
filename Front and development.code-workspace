@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Front and development"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Event handling"
+	}
+}
